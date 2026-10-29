@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <rect width="800" height="520" fill="#edf5ef"/>
+  <circle cx="400" cy="235" r="112" fill="#d4e9d9"/>
+  <path d="M300 240c0-55 45-100 100-100s100 45 100 100" fill="none" stroke="#16845b" stroke-width="14" stroke-linecap="round"/>
+  <path d="M280 245h240c-8 66-55 104-120 104s-112-38-120-104z" fill="#16845b"/>
+  <text x="400" y="430" font-family="Arial,sans-serif" font-size="34" text-anchor="middle" fill="#255d45" font-weight="700">Fresh &amp; ready</text>
+</svg>
