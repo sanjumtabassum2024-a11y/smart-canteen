@@ -8,6 +8,8 @@ const path = require("path");
 const rateLimit = require("express-rate-limit");
 
 const app = express();
+// Trust Render's reverse proxy
+app.set("trust proxy", 1);
 const PORT = process.env.PORT || 3000;
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/smart_canteen";
 const SESSION_SECRET = process.env.SESSION_SECRET || "development-only-change-me";
